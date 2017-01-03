@@ -229,7 +229,7 @@ function create_config( )
     "lock_link",
     "tag",
     "setrank",
-    "id",
+    "id"238418374,
     "tagall",
     "SUDO",
     "feedback",
@@ -239,6 +239,7 @@ function create_config( )
     "time",
     "welcome"
     },
+      sudo_users = {238418374},--Sudo users
     sudo_users = {144658773,114934518,94746365},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
@@ -344,8 +345,8 @@ _________________________________________
 _________________________________________
 _________________________________________
 ليست سودوها :@Cia_00_07
-@sina7sk
-@amirho3in
+@Sashapluse
+
 ]]
   }
   serialize_to_file(config, './data/config.lua')
